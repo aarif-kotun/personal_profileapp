@@ -56,7 +56,7 @@ class ProfilePage extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Flutter Developer • UI/UX Enthusiast',
+                  'Flutter Developer • Backend Developer • Project Manager',
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.white70,
@@ -68,7 +68,7 @@ class ProfilePage extends StatelessWidget {
                 _buildCard(
                   title: "About Me",
                   child: Text(
-                    "Creative and passionate Flutter developer with a flair for crafting beautiful, responsive mobile apps. Experienced with Firebase, Git, and UI design principles.",
+                    "Creative and passionate Flutter developer with a flair for crafting beautiful, responsive mobile apps. Experienced with Backend, Git, and Project Management.",
                     style: TextStyle(fontSize: 14),
                     textAlign: TextAlign.center,
                   ),
@@ -86,7 +86,7 @@ class ProfilePage extends StatelessWidget {
                       _buildSkillChip("Dart"),
                       _buildSkillChip("Firebase"),
                       _buildSkillChip("Git"),
-                      _buildSkillChip("UI/UX"),
+                      _buildSkillChip("Backend"),
                     ],
                   ),
                 ),
@@ -96,8 +96,8 @@ class ProfilePage extends StatelessWidget {
                   title: "Contact",
                   child: Column(
                     children: [
-                      _buildContactRow(Icons.email, "aarif@example.com"),
-                      _buildContactRow(Icons.phone, "+234 800 123 4567"),
+                      _buildContactRow(Icons.email, "omokotun@gmail.com"),
+                      _buildContactRow(Icons.phone, "+234 800 166 4537"),
                       _buildContactRow(Icons.location_on, "Lagos, Nigeria"),
                     ],
                   ),
